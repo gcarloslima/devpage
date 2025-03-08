@@ -17,6 +17,17 @@ import {
   ChevronRight,
   MessageSquare,
 } from "lucide-react"
+import homeImage from '@/app/assets/images/home.png'
+import barbaraImage from '@/app/assets/images/barbara.png'
+import carlosImage from '@/app/assets/images/carlos.png'
+import diegoImage from '@/app/assets/images/diego.png'
+import milenaImage from '@/app/assets/images/milena.png'
+import techCorpImage from '@/app/assets/images/techcorp.png'
+import andressaImage from '@/app/assets/images/andressa.png'
+import nefegueImage from '@/app/assets/images/nefegue.png'
+import carlosRobertoImage from '@/app/assets/images/carlos-roberto.png'
+import amandaSilvaImage from '@/app/assets/images/amanda-silva.png'
+import ricardoMendesImage from '@/app/assets/images/ricardo-mendes.png'
 
 export default function Home() {
   return (
@@ -90,7 +101,7 @@ export default function Home() {
           <div className="relative aspect-square max-w-md mx-auto md:mx-0">
             <div className="absolute inset-0 bg-indigo-100 dark:bg-indigo-900/20 rounded-lg -rotate-6 transform transition-colors"></div>
             <Image
-              src=""
+              src={homeImage}
               alt="Equipe trabalhando em landing pages"
               width={500}
               height={500}
@@ -107,10 +118,10 @@ export default function Home() {
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
           {[
-            { name: "Barbara Santos", role: "Frontend Developer", image: "/placeholder.svg?height=120&width=120" },
-            { name: "Carlos Rangel", role: "Full Stack Developer", image: "/placeholder.svg?height=120&width=120" },
-            { name: "Diego Silva", role: "Backend Developer", image: "/placeholder.svg?height=120&width=120" },
-            { name: "Milena Bertoldi", role: "Full Stack Developer", image: "/placeholder.svg?height=120&width=120" },
+            { name: "Barbara Santos", role: "Frontend Developer", image: barbaraImage },
+            { name: "Carlos Rangel", role: "Full Stack Developer", image: carlosImage },
+            { name: "Diego Silva", role: "Backend Developer", image: diegoImage },
+            { name: "Milena Bertoldi", role: "Full Stack Developer", image: milenaImage },
           ].map((member, index) => (
             <div
               key={index}
@@ -138,19 +149,19 @@ export default function Home() {
             {
               title: "TechCorp Landing Page",
               description: "Landing page moderna para empresa de tecnologia",
-              image: "/placeholder.svg?height=240&width=400",
+              image: techCorpImage,
               tag: "Web",
             },
             {
               title: "Refúgio Arquitetura",
               description: "Página de Portfolio otimizada para arquitetos",
-              image: "/placeholder.svg?height=240&width=400",
+              image: nefegueImage,
               tag: "Design",
             },
             {
               title: "Andressa Psicóloga",
               description: "Landing page para atendimento de saúde",
-              image: "/placeholder.svg?height=240&width=400",
+              image: andressaImage,
               tag: "Saúde",
             },
           ].map((project, index) => (
@@ -238,19 +249,19 @@ export default function Home() {
               name: "Carlos Roberto",
               company: "CEO, TechSmart",
               testimonial: "A DevPage transformou completamente nosso website online. Resultados impressionantes!",
-              image: "/placeholder.svg?height=60&width=60",
+              image: carlosRobertoImage,
             },
             {
               name: "Amanda Silva",
               company: "Marketing Manager",
               testimonial: "Profissionais excepcionais e resultados além das expectativas.",
-              image: "/placeholder.svg?height=60&width=60",
+              image: amandaSilvaImage,
             },
             {
               name: "Ricardo Mendes",
               company: "Founder, DigitalPlus",
               testimonial: "Melhor investimento que fizemos para nosso negócio este ano.",
-              image: "/placeholder.svg?height=60&width=60",
+              image: ricardoMendesImage,
             },
           ].map((testimonial, index) => (
             <div
