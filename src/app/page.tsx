@@ -41,33 +41,33 @@ export default function Home() {
             </Link>
             <nav className="hidden md:flex items-center space-x-6">
               <Link
-                href="#"
-                className="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-500 transition-colors"
+                href="#home"
+                className="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-500 transition-colors cursor-pointer"
               >
                 Início
               </Link>
               <Link
                 href="#portfolio"
-                className="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-500 transition-colors"
+                className="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-500 transition-colors cursor-pointer"
               >
                 Portfolio
               </Link>
               <Link
                 href="#services"
-                className="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-500 transition-colors"
+                className="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-500 transition-colors cursor-pointer"
               >
                 Serviços
               </Link>
               <Link
                 href="#contact"
-                className="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-500 transition-colors"
+                className="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-500 transition-colors cursor-pointer"
               >
                 Contato
               </Link>
             </nav>
             <div className="flex items-center space-x-4">
               <ThemeToggle />
-              <Button className="bg-indigo-600 hover:bg-indigo-700 text-white transition-colors">
+              <Button className="bg-indigo-600 hover:bg-indigo-700 text-white transition-colors cursor-pointer">
                 Começar Projeto
               </Button>
             </div>
@@ -76,7 +76,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="container mx-auto py-12 md:py-16 px-4 md:px-6">
+      <section id="home" className="container mx-auto py-12 md:py-16 px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="space-y-6">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-gray-900 dark:text-white">
@@ -87,12 +87,12 @@ export default function Home() {
               entre UX/UI com design inovador.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button className="bg-indigo-600 hover:bg-indigo-700 text-white transition-colors">
+              <Button className="bg-indigo-600 hover:bg-indigo-700 text-white transition-colors cursor-pointer">
                 Iniciar Projeto
               </Button>
               <Button
                 variant="outline"
-                className="border-gray-300 text-gray-700 hover:text-indigo-600 hover:border-indigo-600 dark:border-gray-700 dark:text-gray-300 dark:hover:text-indigo-500 dark:hover:border-indigo-500 transition-colors"
+                className="border-gray-300 text-gray-700 hover:text-indigo-600 hover:border-indigo-600 dark:border-gray-700 dark:text-gray-300 dark:hover:text-indigo-500 dark:hover:border-indigo-500 transition-colors cursor-pointer"
               >
                 Ver Portfolio
               </Button>
@@ -188,7 +188,7 @@ export default function Home() {
                 <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">{project.description}</p>
                 <Link
                   href="#"
-                  className="inline-flex items-center mt-3 text-sm font-medium text-indigo-600 dark:text-indigo-500 hover:text-indigo-700 dark:hover:text-indigo-400 transition-colors"
+                  className="inline-flex items-center mt-3 text-sm font-medium text-indigo-600 dark:text-indigo-500 hover:text-indigo-700 dark:hover:text-indigo-400 transition-colors cursor-pointer"
                 >
                   Ver Projeto
                 </Link>
@@ -338,7 +338,7 @@ export default function Home() {
                 className="min-h-[150px] bg-white dark:bg-gray-900 border-gray-300 dark:border-gray-700 focus:border-indigo-500 dark:focus:border-indigo-500 transition-colors"
               />
             </div>
-            <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white transition-colors">
+            <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white transition-colors cursor-pointer">
               Enviar Mensagem
             </Button>
           </div>
@@ -356,7 +356,7 @@ export default function Home() {
                 </div>
                 <Button
                   variant="outline"
-                  className="w-full mt-2 border-indigo-200 text-indigo-600 hover:bg-indigo-50 dark:border-indigo-900 dark:text-indigo-400 dark:hover:bg-indigo-950/50 transition-colors"
+                  className="w-full mt-2 border-indigo-200 text-indigo-600 hover:bg-indigo-50 dark:border-indigo-900 dark:text-indigo-400 dark:hover:bg-indigo-950/50 transition-colors cursor-pointer"
                 >
                   <MessageSquare className="h-4 w-4 mr-2" />
                   Conversar no WhatsApp
@@ -368,19 +368,19 @@ export default function Home() {
               <div className="flex space-x-4">
                 <Link
                   href="#"
-                  className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-500 transition-colors"
+                  className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-500 transition-colors cursor-pointer"
                 >
                   <Instagram className="h-5 w-5" />
                 </Link>
                 <Link
                   href="#"
-                  className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-500 transition-colors"
+                  className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-500 transition-colors cursor-pointer"
                 >
                   <Linkedin className="h-5 w-5" />
                 </Link>
                 <Link
                   href="#"
-                  className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-500 transition-colors"
+                  className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-500 transition-colors cursor-pointer"
                 >
                   <Github className="h-5 w-5" />
                 </Link>
@@ -397,7 +397,7 @@ export default function Home() {
             <h3 className="text-lg font-semibold text-center mb-4 text-gray-900 dark:text-white">Newsletter</h3>
             <div className="flex">
               <Input placeholder="Seu email" className="rounded-r-none bg-white dark:bg-gray-800" />
-              <Button className="rounded-l-none bg-indigo-600 hover:bg-indigo-700">
+              <Button className="rounded-l-none bg-indigo-600 hover:bg-indigo-700 cursor-pointer">
                 <ChevronRight className="h-4 w-4" />
               </Button>
             </div>
@@ -425,7 +425,7 @@ export default function Home() {
                 <li>
                   <Link
                     href="#"
-                    className="text-sm text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-500"
+                    className="text-sm text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-500 cursor-pointer"
                   >
                     Início
                   </Link>
@@ -433,7 +433,7 @@ export default function Home() {
                 <li>
                   <Link
                     href="#portfolio"
-                    className="text-sm text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-500"
+                    className="text-sm text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-500 cursor-pointer"
                   >
                     Portfolio
                   </Link>
@@ -441,7 +441,7 @@ export default function Home() {
                 <li>
                   <Link
                     href="#services"
-                    className="text-sm text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-500"
+                    className="text-sm text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-500 cursor-pointer"
                   >
                     Serviços
                   </Link>
@@ -456,7 +456,7 @@ export default function Home() {
                 <li>
                   <Link
                     href="#"
-                    className="text-sm text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-500"
+                    className="text-sm text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-500 cursor-pointer"
                   >
                     Landing Pages
                   </Link>
@@ -464,7 +464,7 @@ export default function Home() {
                 <li>
                   <Link
                     href="#"
-                    className="text-sm text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-500"
+                    className="text-sm text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-500 cursor-pointer"
                   >
                     Design Responsivo
                   </Link>
@@ -472,7 +472,7 @@ export default function Home() {
                 <li>
                   <Link
                     href="#"
-                    className="text-sm text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-500"
+                    className="text-sm text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-500 cursor-pointer"
                   >
                     Suporte Técnico
                   </Link>
@@ -486,7 +486,7 @@ export default function Home() {
               <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">Receba novidades e atualizações.</p>
               <div className="flex">
                 <Input placeholder="Seu email" className="rounded-r-none bg-white dark:bg-gray-800" />
-                <Button className="rounded-l-none bg-indigo-600 hover:bg-indigo-700">
+                <Button className="rounded-l-none bg-indigo-600 hover:bg-indigo-700 cursor-pointer">
                   <ChevronRight className="h-4 w-4" />
                 </Button>
               </div>
