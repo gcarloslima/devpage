@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "deploy": "npm run build && echo > out/.nojekyll && gh-pages -d out -t true",
+    "create-nojekyll": "node scripts/create-nojekyll.js",
+    "deploy": "npm run build && npm run create-nojekyll && gh-pages -d out -t true",
     "start": "next start",
     "lint": "next lint"
   },
