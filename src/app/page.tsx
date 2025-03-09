@@ -282,7 +282,7 @@ export default function Home() {
                   <p className="text-sm text-gray-500 dark:text-gray-400">{testimonial.company}</p>
                 </div>
               </div>
-              <p className="text-gray-600 dark:text-gray-300 text-sm">"&ldquo;"{testimonial.testimonial}&rdquo;</p>
+              <p className="text-gray-600 dark:text-gray-300 text-sm">&ldquo;{testimonial.testimonial}&rdquo;</p>
             </div>
           ))}
         </div>
